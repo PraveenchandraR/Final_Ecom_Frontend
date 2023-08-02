@@ -29,3 +29,9 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (min-width:250px) and (max-width:500px){
+  .payname{
+    font-size: 15px;
+  }
+}
