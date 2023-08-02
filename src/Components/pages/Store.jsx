@@ -73,14 +73,14 @@ const Store = () => {
             </div>
             <header>
                 <div>{NoOfItems} Items</div>
-                <div>
+                <div className='dropdowndel'>
                     <label htmlFor="dropdownSortBy">Sort By</label>    
                     <select id="dropdownSortBy" value={SortBy} onChange={handleSortBy}>
                         <option value="title">Name</option>
                         <option value="rating">Rating</option>
                     </select>
                 </div>
-                <div>
+                <div className='dropdowndel'>
                 <label htmlFor="dropdownShow">Show</label>    
                     <select id="dropdownShow" value={Show} onChange={handleShow}>
                         <option value="6">6</option>
