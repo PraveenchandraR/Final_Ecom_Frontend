@@ -4,6 +4,9 @@
   align-items: center;
   justify-content: center;
 }
+.dropdowndel{
+  display:none;
+}
 
 .loading-spiner {
   width: 50px;
