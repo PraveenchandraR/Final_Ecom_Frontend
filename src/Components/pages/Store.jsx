@@ -67,7 +67,7 @@ const Store = () => {
         </div>
         <div className='HeaderAndSliderContainer'>
             <div className='divSliderPrice'>
-                <h4>Price</h4>
+                <h4>Item</h4>
                 <p>Ranger:</p>
                 <Slider  value={Price} onChange={handlePrice} defaultValue={100}  min={10} max={1000}/>
             </div>
