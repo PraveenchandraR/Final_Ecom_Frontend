@@ -67,20 +67,20 @@ const Store = () => {
         </div>
         {/* <div className='HeaderAndSliderContainer'>
             <div className='divSliderPrice'>
-                <h4>Price</h4>
+                <h4>Item</h4>
                 <p>Ranger:</p>
                 <Slider  value={Price} onChange={handlePrice} defaultValue={100}  min={10} max={1000}/>
             </div>
             <header>
                 <div>{NoOfItems} Items</div>
-                <div>
+                <div className='dropdowndel'>
                     <label htmlFor="dropdownSortBy">Sort By</label>    
                     <select id="dropdownSortBy" value={SortBy} onChange={handleSortBy}>
                         <option value="title">Name</option>
                         <option value="rating">Rating</option>
                     </select>
                 </div>
-                <div>
+                <div className='dropdowndel'>
                 <label htmlFor="dropdownShow">Show</label>    
                     <select id="dropdownShow" value={Show} onChange={handleShow}>
                         <option value="6">6</option>

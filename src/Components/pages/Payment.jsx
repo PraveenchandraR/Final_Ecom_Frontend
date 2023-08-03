@@ -9,9 +9,9 @@ function Payment() {
         <Navigation /> */}
         <div className="payment">
             
-            <div> <h1>Order</h1><br />
+             <h1>Order Confirmed</h1><br />
                 <h3>Only Pay After Receive</h3><br />
-            </div>
+            
                 <div className="paybox">
                       <div className="paytype">
                 <span className="payname">Order Id: 57CUD877CXUE6</span>
